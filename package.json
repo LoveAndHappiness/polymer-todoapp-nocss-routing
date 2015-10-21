@@ -1,10 +1,9 @@
 {
   "private": true,
-  "scripts": {
-    "postinstall": "npm run build",
-    "build": "polybuild --maximum-crush elements/elements.html"
-  },
   "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
     "polybuild": "^1.0.5"
   }
 }
