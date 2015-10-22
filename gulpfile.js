@@ -11,7 +11,7 @@ gulp.task('browser-sync', function() {
     'use strict';
 
     browserSync.init(['css/*.css', 'js/*.js'], {
-        proxy: 'test2.dev'
+        proxy: 'test3.dev'
     });
 
 });
